@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_28OE8OC_EemNibBR52tSGw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_3tQgUOC_EemNibBR52tSGw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_7gJjIOC_EemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.partdescriptor.simpletableview-deletemethodast-0927pavlik" label="Simple Table View - Delete Method AST - 0927 Pavlik" iconURI="platform:/plugin/project-ex-0927-type-delete-ast-Pavlik/icons/sample.png" contributionURI="bundleclass://project-ex-0927-type-delete-ast-Pavlik/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_tQBkEODNEemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_wymS8ODNEemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.handledmenuitem.refresh" label="Analyze Program" command="_4HNwEeDNEemNibBR52tSGw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_0i7J8ODNEemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.handledmenuitem.deletemethod" label="Delete Private Method" command="_4HNwE-DNEemNibBR52tSGw"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_4HNwEODNEemNibBR52tSGw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_4HNwEeDNEemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.command.refresh" commandName="Analyze Program"/>
+    <elements xsi:type="commands:Command" xmi:id="_4HNwE-DNEemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.command.deletemethod" commandName="Delete Method"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_47dQcODNEemNibBR52tSGw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_47dQceDNEemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.handler.0" contributionURI="bundleclass://project-ex-0927-type-delete-ast-Pavlik/handler.ProgramAnalysisHandler" command="_4HNwEeDNEemNibBR52tSGw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_47dQc-DNEemNibBR52tSGw" elementId="project-ex-0927-type-delete-ast-pavlik.handler.2" contributionURI="bundleclass://project-ex-0927-type-delete-ast-Pavlik/handler.DelMethodHandler" command="_4HNwE-DNEemNibBR52tSGw"/>
+  </fragments>
+</fragment:ModelFragments>
